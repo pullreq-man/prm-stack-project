@@ -13,4 +13,5 @@ spec :: Spec
 spec = do
   describe "someFunc" $ do
     it "should outputs successfully" $ do
+      error "fail on purpose"
       someFunc
