@@ -13,5 +13,5 @@ spec :: Spec
 spec = do
   describe "someFunc" $ do
     it "should outputs successfully" $ do
-      error "fail on purpose" `shouldThrow`  anyErrorCall
+      -- error "fail on purpose" `shouldThrow`  anyErrorCall
       someFunc
