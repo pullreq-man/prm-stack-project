@@ -1,4 +1,5 @@
 # PRM Stack project
+[![Build Status](https://travis-ci.org/pullreq-man/prm-stack-project.svg?branch=feature%2Ftravis)](https://travis-ci.org/pullreq-man/prm-stack-project)
 
 This is stack project for pull request practice
 
