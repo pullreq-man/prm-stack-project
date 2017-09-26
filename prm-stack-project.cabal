@@ -1,5 +1,5 @@
 name:                prm-stack-project
-version:             0.1.0
+version:             0.2.0
 -- synopsis:
 -- description:
 homepage:            https://github.com/githubuser/prm-stack-project#readme
@@ -33,6 +33,8 @@ test-suite prm-stack-project-test
   main-is:             Spec.hs
   build-depends:       base
                      , prm-stack-project
+                     , hspec
+                     , QuickCheck
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N
   default-language:    Haskell2010
 
