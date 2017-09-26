@@ -1,6 +1,7 @@
 module Main where
 
-import Lib
+import           Control.Monad
+import           Lib
 
 main :: IO ()
-main = someFunc
+main = forM_ [1..10] print
