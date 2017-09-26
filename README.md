@@ -8,8 +8,7 @@ This is stack project for pull request practice
 ## How to run
 
 ```sh
-$ stack build
-$ stack exec prm-stack-project-exe
+$ stack build --exec prm-stack-project-exe
 ```
 
 ## How to install stack
