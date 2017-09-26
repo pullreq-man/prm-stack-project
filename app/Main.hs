@@ -1,7 +1,8 @@
 module Main where
 
-import           Lib
 import           Control.Monad
+import           Lib
 
 main :: IO ()
-main = forM_ [1..10] (\_ -> putStrLn "hello, world")
+main = do
+  forM_ [1..10] (\_ -> putStrLn "hello, world")
